@@ -4,6 +4,9 @@
       "Article2":{"Id":"2","Title":"GOT2","Image":"abc/image/abc2.png","Body":"ABC2","Date Published":"12-Dec-2014","Category Id":"ISBN231"},
       "Article3":{"Id":"3","Title":"GOT3","Image":"abc/image/abc3.png","Body":"ABC3","Date Published":"12-Dec-2014","Category Id":"ISBN123"}
     },
-    "List of categories": {"Category":{"Name":"Fantasy","Id":"1"}}
+    "List of categories": {"Category1":{"Name":"Fantasy","Id":"1"},
+      "Category2":{"Name":"Humour","Id":"2"},
+      "Category3":{"Name":"Luagh","Id":"3"}
+    }
   }
 }
