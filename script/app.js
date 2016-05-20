@@ -2,12 +2,10 @@
  * Created by mahesh on 18/5/16.
  */
 
-var angularApp = angular.module("angularApp",[]);
+var articleApp = angular.module("articleApp",[]);
 
-angularApp.controller("ArticleListController",['$scope','$http', function($scope,$http) {
-    //getArticleList();
-    function getArticleList() {
-        $http.post('data/response.json').success(function (data) {
-            $scope.details = data;
-        });
+articleApp.controller('ArticleCtrl', function ($scope, $http) {
+    $http.get('http://data/response.json').success(function(data) {
+        $scope.Data = Data;
     });
+});

@@ -1,22 +1,17 @@
-<html ng-app="angularApp">
+<html ng-app="articleApp">
     <head>
         <link rel="stylesheet" type="text/css" href="lib/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
     </head>
-    <body>
+    <body ng-controller="ArticleCtrl">
         <nav class="navbar navbar-default" role="navigation">
 
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" >FE-Angular</a>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="">Category-1</a></li>
+                    <ul class="nav navbar-nav" >
+                        <li class="active" ng-repeat="Article in List of Article"><a href="">{{Article1.Title}}</a></li>
                     </ul>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="">Category-2</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="">Category-3</a></li>
-                    </ul>
+
                 </div>
             </div>
 
