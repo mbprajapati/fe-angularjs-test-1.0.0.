@@ -1,0 +1,35 @@
+<html>
+  <title>Testing</title>
+
+  <body>
+    <div ng-app="myApp">
+        <div ng-controller="FirstController">
+            <input type="text" ng-model="data.message">
+            {{data.message + "Hello"}}
+        </div>
+        <div ng-controller="DoubleController">
+          Two times <input ng-model="num"> equals {{ double(num) }}
+        </div>
+
+        <div ng-controller="sweetCtrl">
+          <button ng-click="ras()">Rasgulla</button>
+          <button ng-click="gul()">Gulabjamun</button>
+          <h1>
+            This is {{sweet.item}} and it's price is RS.{{sweet.price}}/kg.
+          </h1>
+        </div>
+
+        <div id="simple" ng-controller="MyController">
+        <p>Let's try this simple notify service, injected into the controller...</p>
+        <input ng-init="message='test'" ng-model="message" >
+        <button ng-click="callNotify(message);">NOTIFY</button>
+        <p>(you have to click 3 times to see an alert)</p>
+      </div>
+
+    </div>
+
+
+  </body>
+  <script type="text/javascript" src="lib/angular.min.js"></script>
+  <script type="text/javascript" src="script/controller.js"></script>
+</html>

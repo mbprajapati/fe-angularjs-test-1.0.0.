@@ -1,0 +1,40 @@
+
+
+$primaryColor: skyblue !important;
+$in-hell:orange;
+$fontDiff: (140px/20px*2*2+2-15px) ;
+$firstValue: 24px !important;
+$secondValue: 45px !important;
+
+body {
+  $primaryColor:#ccc !important;
+  background: $primaryColor;
+}
+
+
+p {
+  .seprate{font-size: $firstValue;}
+  color: $primaryColor;
+  font-size:$fontDiff;
+  a{
+    font-size: $secondValue/$fontDiff;
+  }
+}
+
+ul{
+  li{
+
+      p.hell{
+
+            a{
+                background-color:$in-hell !important;
+            }
+
+      }
+
+  }
+  .link{
+    background-color: red;
+    font-size: $secondValue;
+  }
+}
