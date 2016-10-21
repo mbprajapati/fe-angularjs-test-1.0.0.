@@ -1,4 +1,4 @@
-{
+[
   "Data": {
     "List of articles": {"Article1":{"Id":"1","Title":"GOT1","Image":"abc/image/abc1.png","Body":"ABC1","Date Published":"12-Dec-2014","Category Id":"ISBN321"},
       "Article2":{"Id":"2","Title":"GOT2","Image":"abc/image/abc2.png","Body":"ABC2","Date Published":"12-Dec-2014","Category Id":"ISBN231"},
@@ -9,4 +9,4 @@
       "Category3":{"Name":"Luagh","Id":"3"}
     }
   }
-}
+]
